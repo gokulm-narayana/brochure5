@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NuraEye | Premium Surveillance Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Page 1: Cover Page -->
+        <div class="page page-1">
+            <div class="page-content">
+                <!-- Logo Section -->
+                <div class="logo-section">
+                    <div class="logo">
+                        <img src="images/nurawhite.png" alt="NuraEye Logo" class="brand-logo-img">
+                    </div>
+                </div>
+
+                <!-- Camera Image Section -->
+                <div class="camera-image-section">
+                    <div class="camera-placeholder">
+                        <img src="images/multicam.png" alt="NuraEye Multi-Camera Security System" class="camera-img">
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="cta-section">
+                    <button class="btn btn-primary">Explore More</button>
+                </div>
+            </div>
+
+            <!-- Scroll / Swipe Hint -->
+            <div class="scroll-hint" id="scrollHint">
+                <span class="scroll-hint__label">Swipe to explore</span>
+                <div class="scroll-hint__arrows">
+                    <i class="fas fa-chevron-right scroll-hint__arrow scroll-hint__arrow--1"></i>
+                    <i class="fas fa-chevron-right scroll-hint__arrow scroll-hint__arrow--2"></i>
+                    <i class="fas fa-chevron-right scroll-hint__arrow scroll-hint__arrow--3"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 2: About Company -->
+        <div class="page page-2">
+            <div class="page-content">
+                <div class="about-container">
+                    <h2 class="page-title">About the <span class="gradient-text">Company</span></h2>
+
+                    <div class="about-section">
+                        <p class="about-text">
+                            We provide advanced AI-powered CCTV surveillance &amp; security systems. A brand powered by
+                            Onchip Technologies.
+                            <br><br>
+                            Designed to secure homes, businesses, factories and public spaces. Our solutions deliver
+                            high-definition video, intelligent analytics, and real-time monitoring to ensure maximum and
+                            fool proof protection.
+                        </p>
+                    </div>
+
+
+                    <div class="mission-section" style="animation-delay: 0.3s;">
+                        <h3 class="section-title"><span class="gradient-text">Why Nuraeye</span></h3>
+                        <p class="mission-text">
+                            Incidents don't wait for the perfect moment—they happen just randomly in fraction of a time.
+                            Nuraeye CCTV Surveillance provides real-time alerts in multiple ways across your security
+                            infrastructure, enabling teams to respond to threats early and even before situations
+                            escalates. A simple natural language query can identify the incidents.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 3: Product Range -->
+        <div class="page page-3">
+            <div class="page-content">
+                <div class="products-container">
+                    <h2 class="page-title">Our <span class="gradient-text">Product Range</span></h2>
+                    <p class="products-subtitle">Comprehensive surveillance solutions for every need</p>
+
+                    <div class="products-grid">
+                        <!-- Dome Cameras -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/product_dome.png" alt="NuraEye Dome Camera" class="product-img"
+                                    style="object-fit: contain;">
+                            </div>
+                            <h3 class="product-title">Dome Cameras</h3>
+                            <p class="product-description">Perfect for indoor surveillance with a compact and discreet
+                                design.</p>
+                        </div>
+
+                        <!-- Bullet Cameras -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/product_bullet.png" alt="NuraEye Bullet Camera" class="product-img"
+                                    style="object-fit: contain;">
+                            </div>
+                            <h3 class="product-title">Bullet Cameras</h3>
+                            <p class="product-description">Designed for outdoor monitoring with long-distance
+                                visibility.</p>
+                        </div>
+
+                        <!-- PTZ Cameras -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/ptz.png" alt="NuraEye PTZ Camera" class="product-img"
+                                    style="object-fit: contain;">
+                            </div>
+                            <h3 class="product-title">PTZ Cameras</h3>
+                            <p class="product-description">Pan-Tilt-Zoom cameras for large area coverage and smart
+                                tracking.</p>
+                        </div>
+
+                        <!-- Wireless Cameras -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/right_bullet.png" alt="NuraEye Wireless Camera" class="product-img"
+                                    style="object-fit: contain;">
+                            </div>
+                            <h3 class="product-title">Wireless Cameras</h3>
+                            <p class="product-description">Easy installation and remote monitoring through mobile
+                                devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Page 6: AI Video Analytics -->
+        <div class="page page-6">
+            <div class="page-content">
+                <div class="ai-container">
+
+                    <!-- Header -->
+                    <div class="ai-header">
+                        <div class="ai-badge">
+                            <span class="ai-badge__dot"></span>
+                            AI POWERED
+                        </div>
+                        <h2 class="page-title">Key <span class="gradient-text">Features</span></h2>
+                        <p class="ai-subtitle">Our intelligent surveillance system includes:</p>
+                    </div>
+
+                    <!-- Analytics Grid -->
+                    <div class="ai-grid">
+
+                        <!-- Face Detection -->
+                        <div class="ai-card" style="--ai-accent: #00f0ff; --ai-delay: 0.05s;">
+                            <div class="ai-card__scan"></div>
+                            <div class="ai-card__top">
+                                <div class="ai-card__icon">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <span class="ai-card__num">01</span>
+                            </div>
+                            <h3 class="ai-card__title">Face Detection</h3>
+                            <p class="ai-card__desc">Instantly identify and flag unknown faces in restricted zones</p>
+                            <div class="ai-card__bar">
+                                <div class="ai-card__bar-fill" style="width: 92%;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Intrusion Detection -->
+                        <div class="ai-card" style="--ai-accent: #ff007b; --ai-delay: 0.12s;">
+                            <div class="ai-card__scan"></div>
+                            <div class="ai-card__top">
+                                <div class="ai-card__icon">
+                                    <i class="fas fa-shield-virus"></i>
+                                </div>
+                                <span class="ai-card__num">02</span>
+                            </div>
+                            <h3 class="ai-card__title">Intrusion Detection</h3>
+                            <p class="ai-card__desc">Trigger instant alerts when perimeters are breached</p>
+                            <div class="ai-card__bar">
+                                <div class="ai-card__bar-fill" style="width: 87%;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Line Crossing Detection -->
+                        <div class="ai-card" style="--ai-accent: #bf00ff; --ai-delay: 0.19s;">
+                            <div class="ai-card__scan"></div>
+                            <div class="ai-card__top">
+                                <div class="ai-card__icon">
+                                    <i class="fas fa-grip-lines"></i>
+                                </div>
+                                <span class="ai-card__num">03</span>
+                            </div>
+                            <h3 class="ai-card__title">Line Crossing</h3>
+                            <p class="ai-card__desc">Detect when people or objects cross defined virtual lines</p>
+                            <div class="ai-card__bar">
+                                <div class="ai-card__bar-fill" style="width: 78%;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Person / Object Tracking -->
+                        <div class="ai-card" style="--ai-accent: #ffae00; --ai-delay: 0.26s;">
+                            <div class="ai-card__scan"></div>
+                            <div class="ai-card__top">
+                                <div class="ai-card__icon">
+                                    <i class="fas fa-crosshairs"></i>
+                                </div>
+                                <span class="ai-card__num">04</span>
+                            </div>
+                            <h3 class="ai-card__title">Person / Object Tracking</h3>
+                            <p class="ai-card__desc">Lock onto subjects and follow them across multiple cameras</p>
+                            <div class="ai-card__bar">
+                                <div class="ai-card__bar-fill" style="width: 95%;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Smart Alerts -->
+                        <div class="ai-card" style="--ai-accent: #00f0ff; --ai-delay: 0.33s;">
+                            <div class="ai-card__scan"></div>
+                            <div class="ai-card__top">
+                                <div class="ai-card__icon">
+                                    <i class="fas fa-bell"></i>
+                                </div>
+                                <span class="ai-card__num">05</span>
+                            </div>
+                            <h3 class="ai-card__title">Smart Alerts</h3>
+                            <p class="ai-card__desc">Contextual notifications — less noise, more signal</p>
+                            <div class="ai-card__bar">
+                                <div class="ai-card__bar-fill" style="width: 89%;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Behavior Analysis -->
+                        <div class="ai-card" style="--ai-accent: #ff007b; --ai-delay: 0.40s;">
+                            <div class="ai-card__scan"></div>
+                            <div class="ai-card__top">
+                                <div class="ai-card__icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <span class="ai-card__num">06</span>
+                            </div>
+                            <h3 class="ai-card__title">Behavior Analysis</h3>
+                            <p class="ai-card__desc">Spot loitering, crowd build-up, and abnormal patterns automatically
+                            </p>
+                            <div class="ai-card__bar">
+                                <div class="ai-card__bar-fill" style="width: 83%;"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 6b: Core Detection Capabilities -->
+        <div class="page page-6b">
+            <div class="page-content">
+                <div class="cdc-container">
+
+                    <!-- Header -->
+                    <div class="cdc-header">
+                        <div class="ai-badge">
+                            <span class="ai-badge__dot"></span>
+                            DETECTION ENGINE
+                        </div>
+                        <h2 class="page-title">Core Detection <span class="gradient-text">Capabilities</span></h2>
+                        <p class="cdc-subtitle">Nuraeye's detection engine goes far beyond basic motion sensing —
+                            covering people, animals, objects, sounds, and behavioral anomalies in a single unified
+                            platform.</p>
+                    </div>
+
+                    <!-- Cards Grid -->
+                    <div class="cdc-grid">
+
+                        <!-- Person & Motion -->
+                        <div class="cdc-card" style="--cdc-accent: #00f0ff;">
+                            <div class="cdc-card__icon-wrap">
+                                <i class="fas fa-running"></i>
+                            </div>
+                            <div class="cdc-card__body">
+                                <h3 class="cdc-card__title">Person &amp; Motion</h3>
+                                <p class="cdc-card__desc">Motion tracking, person detection, and movement analysis
+                                    across all zones</p>
+                                <ul class="cdc-card__tags">
+                                    <li>Motion Tracking</li>
+                                    <li>Person Detection</li>
+                                    <li>Zone Analysis</li>
+                                </ul>
+                            </div>
+                            <div class="cdc-card__glow"></div>
+                        </div>
+
+                        <!-- Vehicle Detection -->
+                        <div class="cdc-card" style="--cdc-accent: #ff007b;">
+                            <div class="cdc-card__icon-wrap">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <div class="cdc-card__body">
+                                <h3 class="cdc-card__title">Vehicle Detection</h3>
+                                <p class="cdc-card__desc">Vehicle presence, speed monitoring, and license plate
+                                    recognition</p>
+                                <ul class="cdc-card__tags">
+                                    <li>Vehicle Presence</li>
+                                    <li>Speed Monitoring</li>
+                                    <li>License Plate (ANPR)</li>
+                                </ul>
+                            </div>
+                            <div class="cdc-card__glow"></div>
+                        </div>
+
+                        <!-- Sound Detection -->
+                        <div class="cdc-card" style="--cdc-accent: #bf00ff;">
+                            <div class="cdc-card__icon-wrap">
+                                <i class="fas fa-volume-up"></i>
+                            </div>
+                            <div class="cdc-card__body">
+                                <h3 class="cdc-card__title">Sound Detection</h3>
+                                <p class="cdc-card__desc">Baby cry, dog bark, cat meow, glass breaking, and
+                                    environmental sound alerts</p>
+                                <ul class="cdc-card__tags">
+                                    <li>Baby Cry</li>
+                                    <li>Glass Breaking</li>
+                                    <li>Dog / Cat Sounds</li>
+                                </ul>
+                            </div>
+                            <div class="cdc-card__glow"></div>
+                        </div>
+
+                        <!-- Behavioral Alerts -->
+                        <div class="cdc-card" style="--cdc-accent: #ffae00;">
+                            <div class="cdc-card__icon-wrap">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <div class="cdc-card__body">
+                                <h3 class="cdc-card__title">Behavioral Alerts</h3>
+                                <p class="cdc-card__desc">Tripwire, trespassing, pet detection, snake detection, and
+                                    light/sound deterrence</p>
+                                <ul class="cdc-card__tags">
+                                    <li>Tripwire</li>
+                                    <li>Trespassing</li>
+                                    <li>Snake Detection</li>
+                                </ul>
+                            </div>
+                            <div class="cdc-card__glow"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 7: AI Video Management System -->
+        <div class="page page-7">
+            <div class="page-content">
+                <div class="vms-container">
+
+                    <!-- Header -->
+                    <div class="vms-header">
+                        <div class="vms-live-badge">
+                            <span class="vms-live-dot"></span>LIVE SYSTEM
+                        </div>
+                        <h2 class="page-title">AI Video Management <span class="gradient-text">System</span></h2>
+                        <p class="vms-subtitle">Our VMS platform offers:</p>
+                    </div>
+
+                    <!-- Main Layout: Dashboard mock + feature list -->
+                    <div class="vms-body">
+
+                        <!-- Left: Monitor Mockup -->
+                        <div class="vms-monitor-wrap">
+
+                            <!-- Monitor bezel -->
+                            <div class="vms-monitor">
+                                <!-- Top bar inside screen -->
+                                <div class="vms-dash-bar">
+                                    <div class="vms-dash-dots">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                    <span class="vms-dash-title">VMS Dashboard</span>
+                                    <div class="vms-dash-status">
+                                        <span class="vms-dash-status__dot"></span> Live
+                                    </div>
+                                </div>
+
+                                <!-- Screen content -->
+                                <div class="vms-dash-body">
+                                    <!-- Camera grid -->
+                                    <div class="vms-cam-grid">
+                                        <!-- CAM 01 – Parking lot night vision -->
+                                        <div class="vms-cam vms-cam--active">
+                                            <img src="images/cctv_cam01.png" alt="CAM 01" class="vms-cam__img">
+                                            <div class="vms-cam__overlay"></div>
+                                            <div class="vms-cam__scan"></div>
+                                            <div class="vms-cam__label">CAM 01</div>
+                                            <div class="vms-cam__rec"></div>
+                                        </div>
+                                        <!-- CAM 02 – Corridor -->
+                                        <div class="vms-cam">
+                                            <img src="images/cctv_cam02.png" alt="CAM 02" class="vms-cam__img">
+                                            <div class="vms-cam__overlay"></div>
+                                            <div class="vms-cam__scan"></div>
+                                            <div class="vms-cam__label">CAM 02</div>
+                                            <div class="vms-cam__rec"></div>
+                                        </div>
+                                        <!-- CAM 03 – Warehouse (alert) -->
+                                        <div class="vms-cam vms-cam--alert">
+                                            <img src="images/cctv_cam03.png" alt="CAM 03" class="vms-cam__img">
+                                            <div class="vms-cam__overlay"></div>
+                                            <div class="vms-cam__label">CAM 03</div>
+                                            <div class="vms-cam__alert-icon">!</div>
+                                        </div>
+                                        <!-- CAM 04 – Lobby entrance -->
+                                        <div class="vms-cam">
+                                            <img src="images/cctv_cam04.png" alt="CAM 04" class="vms-cam__img">
+                                            <div class="vms-cam__overlay"></div>
+                                            <div class="vms-cam__scan"></div>
+                                            <div class="vms-cam__label">CAM 04</div>
+                                            <div class="vms-cam__rec"></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Timeline -->
+                                    <div class="vms-timeline">
+                                        <div class="vms-timeline__label">PLAYBACK</div>
+                                        <div class="vms-timeline__track">
+                                            <div class="vms-timeline__fill"></div>
+                                            <div class="vms-timeline__head"></div>
+                                        </div>
+                                        <div class="vms-timeline__time">14:32</div>
+                                    </div>
+
+                                    <!-- Stats row -->
+                                    <div class="vms-stats">
+                                        <div class="vms-stat">
+                                            <span class="vms-stat__val">4</span>
+                                            <span class="vms-stat__lbl">Cams</span>
+                                        </div>
+                                        <div class="vms-stat">
+                                            <span class="vms-stat__val" style="color:#ff007b;">2</span>
+                                            <span class="vms-stat__lbl">Alerts</span>
+                                        </div>
+                                        <div class="vms-stat">
+                                            <span class="vms-stat__val">99%</span>
+                                            <span class="vms-stat__lbl">Uptime</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Power LED on bezel -->
+                                <div class="vms-monitor__led"></div>
+                            </div>
+
+                            <!-- Monitor neck + stand -->
+                            <div class="vms-monitor__neck"></div>
+                            <div class="vms-monitor__stand"></div>
+
+                            <!-- Mobile phone mockup -->
+                            <div class="vms-phone">
+                                <!-- Phone bezel -->
+                                <div class="vms-phone__bezel">
+                                    <!-- Top notch -->
+                                    <div class="vms-phone__notch">
+                                        <div class="vms-phone__speaker"></div>
+                                        <div class="vms-phone__cam-dot"></div>
+                                    </div>
+                                    <!-- Phone screen content -->
+                                    <div class="vms-phone__screen">
+                                        <!-- Status bar -->
+                                        <div class="vms-phone__statusbar">
+                                            <span class="vms-phone__time">14:32</span>
+                                            <div class="vms-phone__icons">
+                                                <span>▲</span><span>WiFi</span><span>█▌</span>
+                                            </div>
+                                        </div>
+                                        <!-- App header -->
+                                        <div class="vms-phone__appbar">
+                                            <span class="vms-phone__appname">NuraEye</span>
+                                            <span class="vms-phone__live-dot"></span>
+                                        </div>
+                                        <!-- Main cam view -->
+                                        <div class="vms-phone__main-cam">
+                                            <img src="images/cctv_cam01.png" alt="Live" class="vms-phone__main-img">
+                                            <div class="vms-cam__overlay"></div>
+                                            <div class="vms-cam__scan"></div>
+                                            <div class="vms-phone__rec-badge"><span></span> REC</div>
+                                            <div class="vms-phone__main-label">CAM 01 · LIVE</div>
+                                        </div>
+                                        <!-- Thumbnail strip -->
+                                        <div class="vms-phone__thumb-row">
+                                            <div class="vms-phone__thumb vms-phone__thumb--active">
+                                                <img src="images/cctv_cam01.png" alt="C1">
+                                                <span>CAM 1</span>
+                                            </div>
+                                            <div class="vms-phone__thumb">
+                                                <img src="images/cctv_cam02.png" alt="C2">
+                                                <span>CAM 2</span>
+                                            </div>
+                                            <div class="vms-phone__thumb vms-phone__thumb--alert">
+                                                <img src="images/cctv_cam03.png" alt="C3">
+                                                <span>CAM 3</span>
+                                            </div>
+                                            <div class="vms-phone__thumb">
+                                                <img src="images/cctv_cam04.png" alt="C4">
+                                                <span>CAM 4</span>
+                                            </div>
+                                        </div>
+                                        <!-- Bottom nav -->
+                                        <div class="vms-phone__nav">
+                                            <div class="vms-phone__nav-item vms-phone__nav-item--active">
+                                                <i class="fas fa-video"></i>
+                                                <span>Live</span>
+                                            </div>
+                                            <div class="vms-phone__nav-item">
+                                                <i class="fas fa-bell"></i>
+                                                <span>Alerts</span>
+                                            </div>
+                                            <div class="vms-phone__nav-item">
+                                                <i class="fas fa-history"></i>
+                                                <span>Playback</span>
+                                            </div>
+                                            <div class="vms-phone__nav-item">
+                                                <i class="fas fa-cog"></i>
+                                                <span>Settings</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Home indicator -->
+                                    <div class="vms-phone__home-bar"></div>
+                                </div>
+                                <!-- Side buttons -->
+                                <div class="vms-phone__btn vms-phone__btn--power"></div>
+                                <div class="vms-phone__btn vms-phone__btn--vol1"></div>
+                                <div class="vms-phone__btn vms-phone__btn--vol2"></div>
+                            </div>
+                        </div>
+
+                        <!-- Right: Feature List -->
+                        <div class="vms-features">
+                            <div class="vms-feat" style="--vf-accent:#00f0ff; --vf-delay:0.05s;">
+                                <div class="vms-feat__icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="vms-feat__body">
+                                    <h4 class="vms-feat__title">Real-Time Monitoring Dashboard</h4>
+                                    <p class="vms-feat__desc">Live overview of all cameras and system health</p>
+                                </div>
+                            </div>
+                            <div class="vms-feat" style="--vf-accent:#bf00ff; --vf-delay:0.11s;">
+                                <div class="vms-feat__icon"><i class="fas fa-th"></i></div>
+                                <div class="vms-feat__body">
+                                    <h4 class="vms-feat__title">Multi-Camera Live View</h4>
+                                    <p class="vms-feat__desc">Watch up to 64 streams simultaneously in one grid</p>
+                                </div>
+                            </div>
+                            <div class="vms-feat" style="--vf-accent:#ff007b; --vf-delay:0.17s;">
+                                <div class="vms-feat__icon"><i class="fas fa-bell"></i></div>
+                                <div class="vms-feat__body">
+                                    <h4 class="vms-feat__title">Smart Alerts Panel</h4>
+                                    <p class="vms-feat__desc">Prioritised, AI-filtered notifications in real time</p>
+                                </div>
+                            </div>
+                            <div class="vms-feat" style="--vf-accent:#ffae00; --vf-delay:0.23s;">
+                                <div class="vms-feat__icon"><i class="fas fa-search"></i></div>
+                                <div class="vms-feat__body">
+                                    <h4 class="vms-feat__title">Video Playback &amp; Search</h4>
+                                    <p class="vms-feat__desc">Scrub through recordings and search by event type</p>
+                                </div>
+                            </div>
+                            <div class="vms-feat" style="--vf-accent:#00f0ff; --vf-delay:0.29s;">
+                                <div class="vms-feat__icon"><i class="fas fa-mobile-alt"></i></div>
+                                <div class="vms-feat__body">
+                                    <h4 class="vms-feat__title">Remote Monitoring via Mobile</h4>
+                                    <p class="vms-feat__desc">Full access from iOS and Android anywhere on earth</p>
+                                </div>
+                            </div>
+                            <div class="vms-feat" style="--vf-accent:#bf00ff; --vf-delay:0.35s;">
+                                <div class="vms-feat__icon"><i class="fas fa-user-lock"></i></div>
+                                <div class="vms-feat__body">
+                                    <h4 class="vms-feat__title">User Access Control</h4>
+                                    <p class="vms-feat__desc">Role-based permissions to protect sensitive footage</p>
+                                </div>
+                            </div>
+                            <div class="vms-feat" style="--vf-accent:#ff007b; --vf-delay:0.41s;">
+                                <div class="vms-feat__icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                                <div class="vms-feat__body">
+                                    <h4 class="vms-feat__title">Cloud Backup</h4>
+                                    <p class="vms-feat__desc">Encrypted off-site storage for bulletproof redundancy</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Page 7d: Chatbot Dashboard Image -->
+        <div class="page page-chatbot-image" style="padding: 0; overflow: hidden;">
+            <div class="page-content" style="padding: 0; width: 100%; height: 100%;">
+                <!-- Desktop image -->
+                <img src="images/chatbot2.png" alt="NuraAI Chatbot UI" class="chatbot-desktop"
+                    style="width: 100%; height: 100%; object-fit: contain; border: none; border-radius: 0;">
+                <!-- Mobile image -->
+                <img src="images/chatbotmob.png" alt="NuraAI Chatbot UI" class="chatbot-mobile"
+                    style="width: 100%; height: 100%; object-fit: contain; border: none; border-radius: 0;">
+            </div>
+        </div>
+
+        <!-- Page 7e: Nura Ads Image -->
+        <div class="page page-nuraads-image" style="padding: 0; overflow: hidden;">
+            <div class="page-content" style="padding: 0; width: 100%; height: 100%;">
+                <!-- Desktop image -->
+                <img src="images/nuraads2.png" alt="Nura Ads" class="nuraads-desktop"
+                    style="width: 100%; height: 100%; object-fit: contain; border: none; border-radius: 0;">
+                <!-- Mobile image -->
+                <img src="images/nuraadsmob.png" alt="Nura Ads" class="nuraads-mobile"
+                    style="width: 100%; height: 100%; object-fit: contain; border: none; border-radius: 0;">
+            </div>
+        </div>
+
+
+        <!-- Page 8: Industry Solutions (6 cards – 3×2 grid) -->
+
+
+
+        <div class="page page-8">
+            <div class="page-content">
+                <div class="sol-container sol-container--dense">
+
+                    <!-- Header -->
+                    <div class="sol-header">
+
+                        <h2 class="page-title ind-title">Industry <span class="gradient-text">Solutions</span></h2>
+                        <p class="ind-page-text">Specialized AI models and hardware setups designed around the unique
+                            challenges of your industry.</p>
+                    </div>
+
+                    <!-- 3×2 dense grid – 6 cards -->
+                    <div class="sol-grid sol-grid--6">
+
+                        <!-- Residential -->
+                        <div class="sol-card">
+                            <img src="images/residential.png" alt="Residential Communities" class="sol-img">
+                            <div class="sol-overlay"></div>
+                            <div class="sol-content">
+                                <h3 class="sol-title" style="color:#00f0ff;">Residential Communities</h3>
+                                <ul class="sol-features">
+                                    <li><i class="fas fa-check"></i> Perimeter Intrusion Alerts</li>
+                                    <li><i class="fas fa-check"></i> Visitor Access Logs</li>
+                                    <li><i class="fas fa-check"></i> 24/7 Gate Surveillance</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Banking -->
+                        <div class="sol-card">
+                            <img src="images/banking.png" alt="Banking" class="sol-img">
+                            <div class="sol-overlay"></div>
+                            <div class="sol-content">
+                                <h3 class="sol-title" style="color:#ff007b;">Banking</h3>
+                                <ul class="sol-features">
+                                    <li><i class="fas fa-check"></i> Vandalism Alerts</li>
+                                    <li><i class="fas fa-check"></i> Facial Recognition</li>
+                                    <li><i class="fas fa-check"></i> Access Control</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Education -->
+                        <div class="sol-card">
+                            <img src="images/education.png" alt="Education" class="sol-img">
+                            <div class="sol-overlay"></div>
+                            <div class="sol-content">
+                                <h3 class="sol-title" style="color:#bf00ff;">Education</h3>
+                                <ul class="sol-features">
+                                    <li><i class="fas fa-check"></i> Proactive Monitoring</li>
+                                    <li><i class="fas fa-check"></i> Lockdown Integrations</li>
+                                    <li><i class="fas fa-check"></i> Campus Safety Grids</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Smart City -->
+                        <div class="sol-card">
+                            <img src="images/smartcity.png" alt="Smart City" class="sol-img">
+                            <div class="sol-overlay"></div>
+                            <div class="sol-content">
+                                <h3 class="sol-title" style="color:#00f0ff;">Smart City / Traffic</h3>
+                                <ul class="sol-features">
+                                    <li><i class="fas fa-check"></i> ANPR Traffic Tracking</li>
+                                    <li><i class="fas fa-check"></i> Municipal Safety Grids</li>
+                                    <li><i class="fas fa-check"></i> Incident Analytics</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Offices & Corporate -->
+                        <div class="sol-card">
+                            <img src="images/office.png" alt="Offices" class="sol-img">
+                            <div class="sol-overlay"></div>
+                            <div class="sol-content">
+                                <h3 class="sol-title" style="color:#ffae00;">Offices &amp; Corporate</h3>
+                                <ul class="sol-features">
+                                    <li><i class="fas fa-check"></i> Access Zone Control</li>
+                                    <li><i class="fas fa-check"></i> Visitor Management</li>
+                                    <li><i class="fas fa-check"></i> After-Hours Alerts</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Retail -->
+                        <div class="sol-card">
+                            <img src="images/retail.png" alt="Retail" class="sol-img">
+                            <div class="sol-overlay"></div>
+                            <div class="sol-content">
+                                <h3 class="sol-title" style="color:#ff007b;">Retail Stores &amp; Malls</h3>
+                                <ul class="sol-features">
+                                    <li><i class="fas fa-check"></i> Live Heatmaps</li>
+                                    <li><i class="fas fa-check"></i> Customer Counting</li>
+                                    <li><i class="fas fa-check"></i> Theft Deterrence</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 9: Industry Solutions (5 cards – symmetrical grid) -->
+        <div class="page page-9">
+            <div class="page-content">
+                <div class="sol-container sol-container--dense">
+
+                    <!-- Header -->
+                    <div class="sol-header">
+                        <div class="ind-page-header">Industry &amp; Solutions</div>
+                    </div>
+
+                    <!-- Symmetrical 5-card grid: 3 top, 2 centred bottom -->
+                    <div class="sol-grid sol-grid--5">
+
+                        <!-- Warehouses -->
+                        <div class="sol-card">
+                            <img src="images/warehouse.png" alt="Warehouses" class="sol-img">
+                            <div class="sol-overlay"></div>
+                            <div class="sol-content">
+                                <h3 class="sol-title" style="color:#00f0ff;">Warehouses</h3>
+                                <ul class="sol-features">
+                                    <li><i class="fas fa-check"></i> Inventory Loss Prevention</li>
+                                    <li><i class="fas fa-check"></i> Forklift Safety Zones</li>
+                                    <li><i class="fas fa-check"></i> Night-Mode Coverage</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Factories -->
+                        <div class="sol-card">
+                            <img src="images/factory.png" alt="Factories" class="sol-img">
+                            <div class="sol-overlay"></div>
+                            <div class="sol-content">
+                                <h3 class="sol-title" style="color:#ffae00;">Factories</h3>
+                                <ul class="sol-features">
+                                    <li><i class="fas fa-check"></i> PPE Compliance Detection</li>
+                                    <li><i class="fas fa-check"></i> Zone Restriction Alerts</li>
+                                    <li><i class="fas fa-check"></i> Shift Analytics</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Hospitals -->
+                        <div class="sol-card">
+                            <img src="images/healthcare.png" alt="Hospitals" class="sol-img">
+                            <div class="sol-overlay"></div>
+                            <div class="sol-content">
+                                <h3 class="sol-title" style="color:#ff007b;">Hospitals</h3>
+                                <ul class="sol-features">
+                                    <li><i class="fas fa-check"></i> Privacy Compliant</li>
+                                    <li><i class="fas fa-check"></i> Wandering Alerts</li>
+                                    <li><i class="fas fa-check"></i> Slip &amp; Fall Detection</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Parking Facilities -->
+                        <div class="sol-card">
+                            <img src="images/parking.png" alt="Parking" class="sol-img">
+                            <div class="sol-overlay"></div>
+                            <div class="sol-content">
+                                <h3 class="sol-title" style="color:#00f0ff;">Parking Facilities</h3>
+                                <ul class="sol-features">
+                                    <li><i class="fas fa-check"></i> ANPR Entry / Exit</li>
+                                    <li><i class="fas fa-check"></i> Occupancy Tracking</li>
+                                    <li><i class="fas fa-check"></i> Incident Recording</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Construction -->
+                        <div class="sol-card">
+                            <img src="images/construction.png" alt="Construction" class="sol-img">
+                            <div class="sol-overlay"></div>
+                            <div class="sol-content">
+                                <h3 class="sol-title" style="color:#bf00ff;">Construction</h3>
+                                <ul class="sol-features">
+                                    <li><i class="fas fa-check"></i> Hardhat Detection</li>
+                                    <li><i class="fas fa-check"></i> Equipment Security</li>
+                                    <li><i class="fas fa-check"></i> Progress Time-lapse</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 10: Contact & Support -->
+        <div class="page page-contact">
+            <div class="page-content contact-page-content">
+
+                <!-- Ambient glows -->
+                <div class="contact-glow contact-glow--cyan"></div>
+                <div class="contact-glow contact-glow--pink"></div>
+
+                <!-- Left Column: Hero -->
+                <div class="contact-hero">
+                    <span class="contact-eyebrow">We're Here to Help</span>
+                    <h2 class="contact-heading">Contact <span class="gradient-text">&amp; Support</span></h2>
+                    <p class="contact-sub">Our team is ready to help you build the right surveillance solution. Reach
+                        out and we'll respond within one business day.</p>
+
+                    <!-- Social media row -->
+                    <div class="contact-social">
+                        <span class="contact-social__label">Follow us for updates</span>
+                        <div class="contact-social__icons">
+                            <a href="https://www.linkedin.com/in/nuraeye-india/" class="social-btn"
+                                aria-label="LinkedIn" style="--sc:#0a66c2;">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://x.com/nuraeye_India" class="social-btn" aria-label="Twitter/X"
+                                style="--sc:#ffffff;">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/nuraeye.india/?hl=en" class="social-btn"
+                                aria-label="Instagram" style="--sc:#e1306c;">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-btn" aria-label="YouTube" style="--sc:#ff0000;">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Contact Cards -->
+                <div class="contact-cards">
+
+                    <div class="contact-card" style="--cc-accent:#00f0ff;">
+                        <div class="contact-card__icon-wrap">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-card__body">
+                            <span class="contact-card__label">Phone</span>
+                            <a href="tel:+919000774881" class="contact-card__value">+91 9000774881</a>
+                        </div>
+                        <div class="contact-card__arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+
+                    <div class="contact-card" style="--cc-accent:#ff007b;">
+                        <div class="contact-card__icon-wrap">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-card__body">
+                            <span class="contact-card__label">Email</span>
+                            <a href="mailto:sales@nuraeyeai.com" class="contact-card__value">sales@nuraeyeai.com</a>
+                        </div>
+                        <div class="contact-card__arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+
+                    <div class="contact-card" style="--cc-accent:#bf00ff;">
+                        <div class="contact-card__icon-wrap">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-card__body">
+                            <span class="contact-card__label">Website</span>
+                            <a href="https://www.nuraeye.ai" class="contact-card__value">www.nuraeye.ai</a>
+                        </div>
+                        <div class="contact-card__arrow"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+
+                    <!-- Bottom tagline -->
+                    <p class="contact-tagline">
+                        <i class="fas fa-shield-alt" style="color:var(--primary-cyan);"></i>
+                        Trusted surveillance solutions — built for every environment.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        (function () {
+            var container = document.querySelector('.container');
+            var exploreBtn = document.querySelector('.btn-primary');
+
+            // Force container focus on load so arrow keys work natively right away
+            if (container) {
+                container.setAttribute('tabindex', '0');
+                container.style.outline = 'none';
+                container.focus();
+            }
+
+            // "Explore More" scrolls smoothly to page 2
+            if (exploreBtn) {
+                exploreBtn.addEventListener('click', function () {
+                    var page2 = document.querySelector('.page-2');
+                    if (page2) {
+                        container.scrollTo({
+                            left: page2.offsetLeft,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+
+</html>
